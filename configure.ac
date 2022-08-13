@@ -5,7 +5,7 @@ AC_INIT([mate-icon-theme],
         [mate-icon-theme],
         [https://github.com/Libre-MATE/mate-icon-theme/])
 AC_PREREQ(2.53)
-
+AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
 AC_CONFIG_SRCDIR([index.theme.in.in])
 AM_EXTRA_RECURSIVE_TARGETS([clean-png-icons build-png-icons])
 
