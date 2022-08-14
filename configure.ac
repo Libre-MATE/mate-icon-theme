@@ -23,8 +23,7 @@ AC_PREREQ(2.53)
 AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
 AC_CONFIG_SRCDIR([index.theme.in.in])
 AM_EXTRA_RECURSIVE_TARGETS([clean-png-icons build-png-icons])
-
-AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz no-dist-gzip foreign check-news])
+AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip foreign silent-rules check-news])
 
 PKG_PROG_PKG_CONFIG([0.19])
 
