@@ -7,3 +7,5 @@ DIST_SUBDIRS = \
 SUBDIRS = \
 	status \
 	$(NULL)
+
+-include $(top_srcdir)/git.mk

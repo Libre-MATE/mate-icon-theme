@@ -21,3 +21,5 @@ MAINTAINERCLEANFILES = \
 	Makefile.in \
 	Makefile
 
+
+-include $(top_srcdir)/git.mk

@@ -21,3 +21,5 @@ SUBDIRS = \
 	places \
 	status \
 	$(NULL)
+
+-include $(top_srcdir)/git.mk

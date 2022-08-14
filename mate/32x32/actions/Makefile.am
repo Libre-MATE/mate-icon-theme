@@ -662,3 +662,5 @@ build-png-icons-local: $(png_icons)
 clean-png-icons-local:
 	@echo "  Cleaning icons..."
 	@rm -f $(png_icons)
+
+-include $(top_srcdir)/git.mk

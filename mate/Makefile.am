@@ -28,3 +28,5 @@ DIST_SUBDIRS = \
 	scalable \
 	scalable-up-to-32 \
 	$(NULL)
+
+-include $(top_srcdir)/git.mk
